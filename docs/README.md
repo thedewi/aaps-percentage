@@ -11,13 +11,13 @@
 
 ## Profile Basal
 
-**Basal rate:** Σ <input id="basal-daily" type="number" step="0.1" />U (daily)
+**Basal rate:** Σ <input id="basal-daily" type="number" />U (daily)
 
 ## Statistics TDD
 
-| Hours                                               | Σ                                                      | Bo/Ba/% | Carbs                                     |
-|-----------------------------------------------------|--------------------------------------------------------|---------|-------------------------------------------|
-| <input id="hours" type="number" placeholder="24" /> | <input id="total-insulin" type="number" step="0.1" />U | -       | <input id="total-carbs" type="number" />g |
+| Hours                                               | Σ                                           | Bo/Ba/% | Carbs                                     |
+|-----------------------------------------------------|---------------------------------------------|---------|-------------------------------------------|
+| <input id="hours" type="number" placeholder="24" /> | <input id="total-insulin" type="number" />U | -       | <input id="total-carbs" type="number" />g |
 
 **Profile % delivered:** <span id="percent-delivered"></span>
 
