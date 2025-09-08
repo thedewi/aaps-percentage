@@ -1,2 +1,2 @@
 # aaps-percentage
-AndroidAPS (AAPS) Retrospective Profile Percentage Calculator
+AndroidAPS (AAPS) retrospective profile percentage calculator
