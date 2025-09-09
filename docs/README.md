@@ -1,4 +1,27 @@
 <!-- markdownlint-disable no-inline-html -->
+<details>
+  <summary style="cursor: pointer; border-radius: 50%; float: right;">&#9432;</summary>
+  <div style="background: purple; margin: 0.5em 0; padding: 0.25em 0.75em;">
+    <p>
+      What % of profile-indicated insulin did the loop need to deliver?
+    </p>
+    <p>
+      This calculator solves this TDD equation for <code>percent</code>:<br />
+      <code>insulin = (carbs / ic + basal * hrs) * (percent / 100)</code>
+    </p>
+    <p>
+      This is a simple check of totals, but it can be useful for quickly
+      assessing how closely your basal and IC match reality, especially after a
+      sudden change due to exercise or illness.
+    </p>
+    <p>
+      <i>Note: since this is a simple calculation from TDD, it inherently assumes
+      "equilibrium" at the start and end of that time. Don't use it on days
+      that start or end with highs/lows/IoB/CoB.</i>
+    </p>
+  </div>
+</details>
+
 ## Profile IC
 
 | Start                                                        | Hours                         | g/U                                                |
